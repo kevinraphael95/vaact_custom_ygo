@@ -1,6 +1,6 @@
-# Cartes Custom Yu-Gi-Oh! — EDOPro / YGOPro
+# Cartes Custom Yu-Gi-Oh! et Decks Version Manga et Anime pour Project Ignis EDOPro
 
-**Créateurs : Kal & Angel**
+**Créateurs des cartes custom: Kal/Angel**
 
 Bienvenue dans ce projet de cartes custom Yu-Gi-Oh! pour EDOPro/YGOPro.  
 Ce dépôt contient des decks, puzzles, images et scripts pour utiliser ces cartes dans le jeu.
