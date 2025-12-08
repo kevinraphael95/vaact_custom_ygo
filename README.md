@@ -8,7 +8,7 @@ Les cartes custom sont la propriété de leurs créateurs, **Kal / Angel**. Il e
 > En utilisant ces cartes, vous acceptez ces conditions.
 
 ## Installation
-1. **Configurer EDOPro** : Ajoutez le dépôt des cartes dans votre fichier `EDOPro/config/user.json` pour que le jeu charge automatiquement les cartes et decks custom.
+1. **Modifier le user_configs** dans ProjectIgnis/config/user_configs pour rajouter le dépôt github en repositories comme ça par exemple : (tout sera téléchargé dans ProjectIgnis/repositories/vaact).
 
 ```json
 {
@@ -27,9 +27,6 @@ Les cartes custom sont la propriété de leurs créateurs, **Kal / Angel**. Il e
 }
 ```
 
-2. **Copier les decks** : Copiez tous les fichiers `.ydk` dans le dossier `EDOPro/deck/`.  
-3. **Copier les puzzles** : Copiez tous les fichiers `.ydk` ou `.lua` correspondants dans le dossier `EDOPro/puzzles/`.  
-4. **Ajouter les autres fichiers nécessaires** :  
-   - Images : copier dans `EDOPro/pics/` ou `EDOPro/pics/custom/`.  
-   - Scripts (.lua) : copier dans `EDOPro/script/`.  
-   - Bases de données (.cdb) : copier dans `EDOPro/expansions/`.  
+2. **Pour utiliser les decks** : Copier/coller les decks dans `ProjectsIgnis/repositories/vaact/deck` dans le dossier `EDOPro/deck/`.  
+3. **Pour utiliser les puzzles** : Copier/coller les puzzles dans `ProjectsIgnis/repositories/vaact/puzzles` dans le dossier `EDOPro/puzzles/`.  
+Oui c'est chiant mais je sais littéarelement pas comment faire autrement.
