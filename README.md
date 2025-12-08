@@ -8,7 +8,25 @@ Les cartes custom sont la propriété de leurs créateurs, **Kal / Angel**. Il e
 > En utilisant ces cartes, vous acceptez ces conditions.
 
 ## Installation
-1. **Configurer EDOPro** : Ajoutez le dépôt des cartes dans votre fichier `EDOPro/config/user.json` pour que le jeu charge automatiquement les cartes et decks custom.  
+1. **Configurer EDOPro** : Ajoutez le dépôt des cartes dans votre fichier `EDOPro/config/user.json` pour que le jeu charge automatiquement les cartes et decks custom.
+
+```json
+{
+  "repos": [
+    {
+      "url": "https://github.com/kevinraphael95/vaact_custom_ygo",
+      "repo_name": "Vaact Cartes",
+      "repo_path": "./repositories/vaact",
+      "is_language": false,
+      "language": "",
+      "data_path": "",
+      "should_update": true,
+      "should_read": true
+    }
+  ]
+}
+```
+
 2. **Copier les decks** : Copiez tous les fichiers `.ydk` dans le dossier `EDOPro/deck/`.  
 3. **Copier les puzzles** : Copiez tous les fichiers `.ydk` ou `.lua` correspondants dans le dossier `EDOPro/puzzles/`.  
 4. **Ajouter les autres fichiers nécessaires** :  
