@@ -3,11 +3,11 @@
 **Créateur des cartes et decks custom : Kal / Angel**  
 Ce dépôt contient des cartes, decks et puzzles pour jouer avec des decks custom inspirés du manga et de l'anime.
 
-## Conditions d’utilisation
+# Conditions d’utilisation
 Les cartes custom sont la propriété de leurs créateurs, **Kal / Angel**. Il est **interdit** d’utiliser, modifier ou redistribuer ces cartes sans autorisation préalable. Toute réutilisation (vidéos, serveurs, projets, decks) nécessite une permission explicite. Usage privé et personnel uniquement, sauf accord contraire.  
 > En utilisant ces cartes, vous acceptez ces conditions.
 
-## Installation
+# Installation
 1. **Modifier le user_configs** dans ProjectIgnis/config/user_configs pour rajouter le dépôt github en repositories comme ça par exemple : (tout sera téléchargé dans ProjectIgnis/repositories/vaact).
 
 ```json
@@ -30,3 +30,9 @@ Les cartes custom sont la propriété de leurs créateurs, **Kal / Angel**. Il e
 2. **Pour utiliser les decks** : Copier/coller les decks dans `ProjectsIgnis/repositories/vaact/deck` dans le dossier `EDOPro/deck/`.  
 3. **Pour utiliser les puzzles** : Copier/coller les puzzles dans `ProjectsIgnis/repositories/vaact/puzzles` dans le dossier `EDOPro/puzzles/`.  
 Oui c'est chiant mais je sais pas comment faire autrement.
+
+
+# Progression
+
+* Deck Anna Kaboom : 3 / 3
+* Deck Atem Débutant : 6 / 22 
