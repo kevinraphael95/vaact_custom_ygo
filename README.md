@@ -15,12 +15,8 @@ Ce dépôt contient des cartes, decks et puzzles pour jouer avec des decks custo
 
 ## Installation
 
-1. **Decks** : copier les fichiers `.ydk` dans `EDOPro/deck/`.  
-2. **Puzzles** : copier les fichiers dans `EDOPro/puzzles/`.  
-3. **Images** : copier dans `EDOPro/pics/` ou `EDOPro/pics/custom/`.  
-4. **Scripts (.lua)** : copier dans `EDOPro/script/`.  
-5. **Bases de données (.cdb)** : copier dans `EDOPro/expansions/`.  
-6. **Configuration du fichier `user.json`** : pour que les cartes custom soient reconnues, ajoutez ou modifiez votre fichier `EDOPro/config/user.json` avec le bloc suivant pour inclure le dépôt externe :
+1. **Configurer EDOPro pour reconnaître les cartes custom** :  
+   Ajoutez le dépôt des cartes dans votre fichier `EDOPro/config/user.json` pour que le jeu charge automatiquement les cartes et decks custom. Exemple :
 
 ```json
 {
@@ -36,4 +32,19 @@ Ce dépôt contient des cartes, decks et puzzles pour jouer avec des decks custo
       "should_read": true
     }
   ]
-}
+1}
+Copier les decks :
+Copier tous les fichiers .ydk dans le dossier EDOPro/deck/ de votre installation.
+
+Copier les puzzles :
+Copier tous les fichiers .ydk ou .lua correspondants dans le dossier EDOPro/puzzles/ de votre installation.
+
+Ajouter les autres fichiers nécessaires :
+
+Images : copier dans EDOPro/pics/ ou EDOPro/pics/custom/.
+
+Scripts (.lua) : copier dans EDOPro/script/.
+
+Bases de données (.cdb) : copier dans EDOPro/expansions/.
+
+⚠️ Toujours copier-coller, ne pas déplacer l’original pour éviter toute perte.
