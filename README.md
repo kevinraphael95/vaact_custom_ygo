@@ -2,11 +2,8 @@
 
 **Créateurs des cartes et decks custom: Kal/Angel**
 
-Bienvenue dans ce projet de cartes custom Yu-Gi-Oh! pour EDOPro/YGOPro.  
-Ce dépôt contient des decks, puzzles, images et scripts pour utiliser ces cartes dans le jeu.
+Ce dépôt contient des cartes, decks, et puzzles pour jouer avec des decks custom inspiré du manga et de l'anime.
 
-Ce projet propose des cartes personnalisées uniques pour enrichir votre expérience.  
-Il contient : decks (.ydk) prêts à l’emploi, puzzles (scénarios solo), images de cartes pour remplacer ou ajouter aux cartes existantes, et scripts/bases de données pour le fonctionnement des cartes.
 
 ## Conditions d’utilisation
 
