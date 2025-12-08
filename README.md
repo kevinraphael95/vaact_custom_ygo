@@ -15,8 +15,3 @@ Les cartes custom sont la propriété de leurs créateurs, **Kal / Angel**. Il e
    - Images : copier dans `EDOPro/pics/` ou `EDOPro/pics/custom/`.  
    - Scripts (.lua) : copier dans `EDOPro/script/`.  
    - Bases de données (.cdb) : copier dans `EDOPro/expansions/`.  
-
-⚠️ Toujours copier-coller les fichiers, ne pas déplacer les originaux pour éviter toute perte.
-
-## Support
-Pour toute question ou problème concernant l’installation ou les cartes, contactez **Kal / Angel**.
