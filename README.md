@@ -1,4 +1,4 @@
-# Cartes Custom Yu-Gi-Oh! et Decks Version Manga et Anime pour Project Ignis EDOPro
+# Cartes et Decks Yu-Gi-Oh! custom dans le style du manga et de l'anime, à utiliser avec Project Ignis EDOPro
 
 **Créateurs des cartes custom: Kal/Angel**
 
