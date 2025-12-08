@@ -29,4 +29,4 @@ Les cartes custom sont la propriété de leurs créateurs, **Kal / Angel**. Il e
 
 2. **Pour utiliser les decks** : Copier/coller les decks dans `ProjectsIgnis/repositories/vaact/deck` dans le dossier `EDOPro/deck/`.  
 3. **Pour utiliser les puzzles** : Copier/coller les puzzles dans `ProjectsIgnis/repositories/vaact/puzzles` dans le dossier `EDOPro/puzzles/`.  
-Oui c'est chiant mais je sais littéarelement pas comment faire autrement.
+Oui c'est chiant mais je sais pas comment faire autrement.
