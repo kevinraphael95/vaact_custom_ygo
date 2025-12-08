@@ -1,6 +1,6 @@
 # Cartes et Decks Yu-Gi-Oh! Custom — Style Manga/Anime — Project Ignis EDOPro
 
-**Créateurs des cartes et decks custom : Kal / Angel**  
+**Créateur des cartes et decks custom : Kal / Angel**  
 Ce dépôt contient des cartes, decks et puzzles pour jouer avec des decks custom inspirés du manga et de l'anime.
 
 ## Conditions d’utilisation
