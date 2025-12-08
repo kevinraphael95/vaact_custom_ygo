@@ -10,12 +10,10 @@ Il contient : decks (.ydk) prêts à l’emploi, puzzles (scénarios solo), imag
 
 ## Conditions d’utilisation
 
-1. Les cartes custom sont la propriété de leurs créateurs, **Kal & Angel**.  
-2. **Interdiction** d’utiliser, modifier ou redistribuer ces cartes sans autorisation préalable.  
+1. Les cartes custom sont la propriété de leurs créateur, **Kal/Angel**.
+2. Il est **Interdit** d’utiliser, modifier ou redistribuer ces cartes sans autorisation préalable.  
 3. Toute réutilisation (vidéos, serveurs, projets, decks) nécessite une permission explicite.  
 4. Usage privé et personnel uniquement, sauf accord contraire.  
-5. Merci de respecter le travail des créateurs.  
-
 > En utilisant ces cartes, vous acceptez ces conditions.
 
 ## Installation
