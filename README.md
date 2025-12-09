@@ -4,7 +4,7 @@
 Ce dépôt contient des cartes, decks et puzzles pour jouer avec des decks custom inspirés du manga et de l'anime.
 
 # Conditions d’utilisation
-Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/Angel**. Il est **interdit** d’utiliser, modifier ou redistribuer ces cartes sans autorisation préalable. Toute réutilisation (vidéos, serveurs, projets, decks) nécessite une permission explicite. Usage privé et personnel uniquement, sauf accord contraire.  
+Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/Angel**. Il est **interdit** d’utiliser, modifier ou redistribuer ces cartes sans autorisation préalable. Toute réutilisation nécessite une permission explicite. Usage privé et personnel uniquement, sauf accord contraire.  
 > En utilisant ces cartes, vous acceptez ces conditions.
 
 # Installation
