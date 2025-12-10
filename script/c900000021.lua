@@ -1,6 +1,6 @@
 --Renforcement (Pump Up)
 function c900000021.initial_effect(c)
-	-- Target 1 monster you control; double its ATK until end phase
+	-- Double ATK
 	local e1=Effect.CreateEffect(c)
 	e1:SetDescription(aux.Stringid(900000021,0))
 	e1:SetCategory(CATEGORY_ATKCHANGE)
@@ -13,10 +13,15 @@ function c900000021.initial_effect(c)
 end
 
 function c900000021.target(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
-	if chkc then return chkc:IsLocation(LOCATION_MZONE) and chkc:IsControler(tp) end
-	if chk==0 then return Duel.IsExistingTarget(Card.IsFaceup,tp,LOCATION_MZONE,0,1,nil) end
+	if chkc then 
+		return chkc:IsLocation(LOCATION_MZONE) and chkc:IsControler(tp) and chkc:IsFaceup()
+	end
+	if chk==0 then 
+		return Duel.IsExistingTarget(Card.IsFaceup,tp,LOCATION_MZONE,0,1,nil)
+	end
 	Duel.Hint(HINT_SELECTMSG,tp,HINTMSG_FACEUP)
-	Duel.SelectTarget(tp,Card.IsFaceup,tp,LOCATION_MZONE,0,1,1,nil)
+	local g=Duel.SelectTarget(tp,Card.IsFaceup,tp,LOCATION_MZONE,0,1,1,nil)
+	Duel.SetOperationInfo(0,CATEGORY_ATKCHANGE,g,1,0,0)
 end
 
 function c900000021.activate(e,tp,eg,ep,ev,re,r,rp)
