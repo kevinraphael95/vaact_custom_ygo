@@ -34,4 +34,4 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 # Progression
 
 * Deck Anna Kaboom : 3 / 3
-* Deck Atem Débutant : 6 / 22 
+* Deck Atem Débutant : 13(?) / 22 
