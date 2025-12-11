@@ -33,10 +33,12 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 
 # Progression
 
-* Deck Anna Kaboom : 
+* Deck Anna Kaboom :
+
 Cartes custom : 3 / 3
 Puzzles : 0
 
-* Deck Atem Débutant : 
+* Deck Atem Débutant :
+
 Cartes custom : 13(?) / 22
 Puzzles : 0
