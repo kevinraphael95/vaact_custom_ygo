@@ -34,11 +34,9 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 # Progression
 
 # Deck Anna Kaboom :
-* Cartes custom : 3 / 3
+* Terminé
 * Puzzles : 0
 
 # Deck Atem Débutant : 
-* Cartes custom : 13 / 22
-* Ne fonctionne pas : Sélection Naturelle ; Kuriboh (Ext. Duel) ; Double Sort ; Dé-Fusion ; Excalibur ; 
-* à vérifier : Slifer, le Dragon Céleste ; Cercueil Maléfique ; Cercle Envoûtant ; Rébellion (message d'erreur mais fonctionne ?) ; 
+* En cours d'ajout
 * Puzzles : 0
