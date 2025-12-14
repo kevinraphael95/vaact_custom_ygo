@@ -39,5 +39,6 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 
 # Deck Atem Débutant : 
 * Cartes custom : 13 / 22
-* Ne fonctionne pas : Slifer, le Dragon Céleste (à vérifier ?) ; Cercueil Maléfique ; Sélection Naturelle ; Cercle Envoûtant ; Kuriboh (Ext. Duel) ; Double Sort ; Rébellion ; Dé-Fusion ; Excalibur
+* Ne fonctionne pas : Sélection Naturelle ; Cercle Envoûtant ; Kuriboh (Ext. Duel) ; Double Sort ; Rébellion ; Dé-Fusion ; Excalibur ; 
+* à vérifier : Slifer, le Dragon Céleste (à vérifier ?) ; Cercueil Maléfique ; 
 * Puzzles : 0
