@@ -1,34 +1,30 @@
--- Carte d'Inviolabilité
+--Card of Sanctity
 local s,id=GetID()
 function s.initial_effect(c)
-	-------------------------------------
-	-- Chaque joueur pioche jusqu'à avoir 6 cartes
-	-------------------------------------
+	--Activate
 	local e1=Effect.CreateEffect(c)
 	e1:SetCategory(CATEGORY_DRAW)
 	e1:SetType(EFFECT_TYPE_ACTIVATE)
 	e1:SetCode(EVENT_FREE_CHAIN)
 	e1:SetTarget(s.target)
-	e1:SetOperation(s.activate)
+	e1:SetOperation(s.operation)
 	c:RegisterEffect(e1)
 end
-
--------------------------------------
--- Target pour l'activation
--------------------------------------
 function s.target(e,tp,eg,ep,ev,re,r,rp,chk)
-	if chk==0 then return true end
-	Duel.SetOperationInfo(0,CATEGORY_DRAW,nil,0,PLAYER_ALL,0)
+	local ct1=6-Duel.GetFieldGroupCount(tp,LOCATION_HAND,0)
+	local ct2=6-Duel.GetFieldGroupCount(tp,0,LOCATION_HAND)
+	if chk==0 then return ct1>0 and Duel.IsPlayerCanDraw(tp,ct1)
+		and ct2>0 and Duel.IsPlayerCanDraw(1-tp,ct2) end
+	Duel.SetOperationInfo(0,CATEGORY_DRAW,nil,0,tp,ct1)
+	Duel.SetOperationInfo(0,CATEGORY_DRAW,nil,0,1-tp,ct2)
 end
-
--------------------------------------
--- Opération : chaque joueur pioche jusqu'à 6 cartes
--------------------------------------
-function s.activate(e,tp,eg,ep,ev,re,r,rp)
-	for p=0,1 do
-		local draw_count = 6 - Duel.GetFieldGroupCount(p,LOCATION_HAND,0)
-		if draw_count > 0 then
-			Duel.Draw(p,draw_count,REASON_EFFECT)
-		end
+function s.operation(e,tp,eg,ep,ev,re,r,rp)
+	local ht=Duel.GetFieldGroupCount(tp,LOCATION_HAND,0)
+	if ht<6 then 
+		Duel.Draw(tp,6-ht,REASON_EFFECT)
+	end
+	ht=Duel.GetFieldGroupCount(1-tp,LOCATION_HAND,0)
+	if ht<6 then 
+		Duel.Draw(1-tp,6-ht,REASON_EFFECT)
 	end
 end
