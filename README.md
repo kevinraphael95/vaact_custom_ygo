@@ -37,6 +37,11 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 * Terminé
 * Puzzles : 0
 
-# Deck Atem Débutant : 
+# Saison 1
+* Deck Atem Débutant : 
 * En cours d'ajout
+* Puzzles : 0
+
+# Soulburner : 
+* Test
 * Puzzles : 0
