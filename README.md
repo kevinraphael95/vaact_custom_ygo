@@ -33,15 +33,18 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 
 # Progression
 
-# Deck Anna Kaboom :
-* Terminé
-* Puzzles : 0
-
 # Saison 1
-* Deck Atem Débutant : 
-* En cours d'ajout
-* Puzzles : 0
+* Ajoutés : 0
+* En cours d'ajout : Deck Atem Débutant : 
 
-# Soulburner : 
-* Test
-* Puzzles : 0
+# Saison 1.5
+* Ajoutés : 0
+* En cours d'ajout : 0
+
+# Saison 2
+* Ajoutés : Deck Anna Kaboom
+* En cours d'ajout : Soulburner
+
+# Saison 2.5
+* Ajoutés : 0
+* En cours d'ajout : 0
