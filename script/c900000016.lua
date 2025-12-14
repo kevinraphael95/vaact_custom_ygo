@@ -35,68 +35,64 @@ function s.target(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
 end
 
 function s.activate(e,tp,eg,ep,ev,re,r,rp)
+	local c=e:GetHandler()
 	local tc=Duel.GetFirstTarget()
 	if not tc or not tc:IsRelateToEffect(e) then return end
 
+	-- Détruire le monstre
 	if Duel.Destroy(tc,REASON_EFFECT)==0 then return end
 	if Duel.GetLocationCount(tp,LOCATION_MZONE)<=0 then return end
 
-	-- On copie les stats
-	local lv=tc:GetLevel()
-	local atk=tc:GetAttack()
-	local def=tc:GetDefense()
-	local race=tc:GetRace()
-	local att=tc:GetAttribute()
-
-	-- On crée le jeton (ID séparé)
-	local token=Duel.CreateToken(tp,900000025)
+	-- Créer le jeton avec les mêmes stats
+	local token=Duel.CreateToken(tp,id+1) -- id+1 = jeton
 	if not token then return end
 
 	Duel.SpecialSummonStep(token,0,tp,tp,false,false,POS_FACEUP)
 
-	-- Copie des stats
-	local e1=Effect.CreateEffect(e:GetHandler())
+	-- Copier les stats
+	local e1=Effect.CreateEffect(c)
 	e1:SetType(EFFECT_TYPE_SINGLE)
 	e1:SetCode(EFFECT_SET_BASE_ATTACK)
-	e1:SetValue(atk)
+	e1:SetValue(tc:GetAttack())
 	e1:SetReset(RESET_EVENT+RESETS_STANDARD)
 	token:RegisterEffect(e1)
 
 	local e2=e1:Clone()
 	e2:SetCode(EFFECT_SET_BASE_DEFENSE)
-	e2:SetValue(def)
+	e2:SetValue(tc:GetDefense())
 	token:RegisterEffect(e2)
 
 	local e3=e1:Clone()
 	e3:SetCode(EFFECT_CHANGE_ATTRIBUTE)
-	e3:SetValue(att)
+	e3:SetValue(tc:GetAttribute())
 	token:RegisterEffect(e3)
 
 	local e4=e1:Clone()
 	e4:SetCode(EFFECT_CHANGE_RACE)
-	e4:SetValue(race)
+	e4:SetValue(tc:GetRace())
 	token:RegisterEffect(e4)
 
 	local e5=e1:Clone()
 	e5:SetCode(EFFECT_CHANGE_LEVEL)
-	e5:SetValue(lv)
+	e5:SetValue(tc:GetLevel())
 	token:RegisterEffect(e5)
 
 	Duel.SpecialSummonComplete()
 
-	-- Destruction du jeton en End Phase
-	local e6=Effect.CreateEffect(e:GetHandler())
+	-- Détruire le jeton en End Phase
+	local e6=Effect.CreateEffect(c)
 	e6:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_CONTINUOUS)
 	e6:SetCode(EVENT_PHASE+PHASE_END)
 	e6:SetCountLimit(1)
-	e6:SetProperty(EFFECT_FLAG_IGNORE_IMMUNE)
 	e6:SetLabelObject(token)
-	e6:SetOperation(function(e,tp,eg,ep,ev,re,r,rp)
-		local tc=e:GetLabelObject()
-		if tc and tc:IsOnField() then
-			Duel.Destroy(tc,REASON_EFFECT)
-		end
-	end)
+	e6:SetOperation(s.destroy_token)
 	e6:SetReset(RESET_PHASE+PHASE_END)
 	Duel.RegisterEffect(e6,tp)
+end
+
+function s.destroy_token(e,tp,eg,ep,ev,re,r,rp)
+	local tc=e:GetLabelObject()
+	if tc and tc:IsOnField() then
+		Duel.Destroy(tc,REASON_EFFECT)
+	end
 end
