@@ -42,7 +42,7 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 * En cours d'ajout : 0
 
 # Saison 2
-* Ajoutés : Deck Anna Kaboom
+* Ajoutés : Anna Kaboom
 * En cours d'ajout : Ghost Gal ; Soulburner
 
 # Saison 2.5
