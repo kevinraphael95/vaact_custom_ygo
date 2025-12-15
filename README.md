@@ -35,7 +35,7 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
 
 # Saison 1
 * Ajoutés : 0
-* En cours d'ajout : Deck Atem Débutant
+* En cours d'ajout : Atem Débutant ; Atem Expert ; Seto Kaiba
 
 # Saison 1.5
 * Ajoutés : 0
