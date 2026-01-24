@@ -16,7 +16,7 @@ Les cartes et decks de ce dépôt sont la propriété de leurs créateur, **Kal/
     {
       "url": "https://github.com/kevinraphael95/vaact_custom_ygo",
       "repo_name": "Vaact Cartes",
-      "repo_path": "./repositories/vaact",
+      "repo_path": "./repositories/testvaact",
       "is_language": false,
       "language": "",
       "data_path": "",
