@@ -14,7 +14,6 @@ Usage privé et personnel uniquement.
 Redistribution ou modification sans autorisation : interdite.
 
 # Installation
-
 1. **Modifier le fichier `user_configs`** dans `ProjectIgnis/config/user_configs` afin d’ajouter ce dépôt GitHub dans les repositories
    (les fichiers seront téléchargés dans `ProjectIgnis/repositories/vaact`) :
 
