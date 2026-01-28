@@ -1,12 +1,9 @@
 # Decks Yu-Gi-Oh! — Fan-Project — Project Ignis EDOPro
 
-Créateur des decks fan-made : Kal/Angel
+Ce dépôt contient des decks Yu-Gi-Oh! custom inspirés de l'anime et du manga.
+Les decks utilisent des cartes Yu-Gi-Oh! officielles et des cartes custom.
 
-Ce dépôt contient des decks Yu-Gi-Oh! créés par un fan pour Project Ignis EDOPro.
-Les decks utilisent des cartes Yu-Gi-Oh! officielles, avec parfois quelques cartes légèrement modifiées pour le gameplay.
-
-Avertissement
-
+# Avertissement
 Yu-Gi-Oh! est une œuvre protégée appartenant à KONAMI et à ses ayants droit.
 Ce projet est non officiel, non commercial et non affilié à KONAMI.
 
