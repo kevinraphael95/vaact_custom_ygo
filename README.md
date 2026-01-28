@@ -1,7 +1,3 @@
-Parfait — voici une **version améliorée, claire et propre**, prête à être copiée/collée, avec une distinction nette entre **tes créations** et les **droits Yu-Gi-Oh!**, sans être trop lourde juridiquement 👌
-
----
-
 # Cartes et Decks Yu-Gi-Oh! Custom — Style Manga/Anime — Project Ignis EDOPro
 
 **Créateur des cartes, decks et puzzles custom : Kal/Angel**
